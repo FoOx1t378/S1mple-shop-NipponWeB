@@ -1,0 +1,67 @@
+@import url('./Headbar.scss');
+@import url('./Home.scss');
+@import url('./footer.scss');
+@import url('./Shop.scss');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "RethinkSans", "GowunBatang", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1030px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container1 {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.line {
+    background: #006970;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.pagination__block {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination__block ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.pagination__block li a {
+    font-family: 'Times New Roman', Times, serif;
+    background: #006970;
+    border-radius: 15px;
+    border: 2px solid #050030;
+    padding: 10px 15px;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 15px;
+
+    &:hover {
+        background: #4e898d;
+    }
+}
