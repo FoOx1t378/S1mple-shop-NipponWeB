@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vite.dev
 export default defineConfig({
   plugins: [react()],
-  base: '/имя-вашего-репозитория/', // ЗДЕСЬ пишите имя репозитория в гитхабе в слэшах!
+  base: './', // Проверьте, чтобы было написано точь-в-точь так!
 })
-

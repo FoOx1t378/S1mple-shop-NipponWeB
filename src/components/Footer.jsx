@@ -15,8 +15,8 @@ const Footer = () => {
                                 </h2>
                                 <ul className="footer__nav-contact_list">
                                     <li className="footer__nav-contact_list-item">
-                                        <a href="#" className="footer__nav-contact_list-item_link">
-                                            NipponWeBshopOfficial@gmail.com
+                                        <a href="mailto:pakfokishiofficial@gmail.com" className="footer__nav-contact_list-item_link">
+                                            pakfokishiofficial@gmail.com
                                         </a>
                                     </li>
                                     <li className="footer__nav-contact_list-item">
@@ -27,7 +27,7 @@ const Footer = () => {
                                     <li className="footer__nav-contact_list-item">
                                         <a href="#" className="footer__nav-contact_list-item_link">
                                             NipponWeBshop Co., Ltd.
-                                            wamotocho 3-10-7, Tojiki Building 7F, Chiyoda-ku, Tokyo, Japan 101-0032
+                                            wamotocho 3-10-7, Tojiki Building 7F, Chiyoda-ku, Tokyo, Japan 101-0032 (место положение является случайным)
                                         </a>
                                     </li>
                                 </ul>
@@ -52,13 +52,13 @@ const Footer = () => {
                             <div className="reg__info-left_contact">
                                 <ul className="reg__info-left_contact-list">
                                     <li className="reg__info-left_contact-list_item">
-                                        <a href="" className="reg__info_contact-list_item-link">
-                                            <img src={facebook} alt="" className="reg__info_contact-list_item-link_img"/>
+                                        <a href="#" className="reg__info_contact-list_item-link">
+                                            <img src={facebook} alt="facebook" className="reg__info_contact-list_item-link_img"/>
                                         </a>
                                     </li>
                                     <li className="reg__info-left_contact-list_item">
-                                        <a href="" className="reg__info_contact-list_item-link">
-                                            <img src={youtube} alt="" />
+                                        <a href="#" className="reg__info_contact-list_item-link">
+                                            <img src={youtube} alt="youtube" />
                                         </a>
                                     </li>
                                 </ul>
@@ -67,7 +67,7 @@ const Footer = () => {
                         <div className="reg__info-rigt">
                             <p className="reg__info-right_p">
                                 Лицензия правительства NNNN No N 105561505123
-                                NNNN корпоративный номер. 701140####
+                                NNNN корпоративный номер. 701140#### (это было сделано как образец)
                             </p>
                         </div>
                     </div>
